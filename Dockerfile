@@ -32,7 +32,12 @@ RUN apt-get -y --no-install-recommends --allow-unauthenticated install \
    ca-certificates \
    make \
    bash \
-   bc
+   bc \
+   gcc-avr \
+   binutils-avr \
+   avr-libc \
+   gdb-avr \
+   avrdude
 
 # # Create a custom user with UID 1234 and GID 1234
 # RUN groupadd -g 1234 customgroup && \
