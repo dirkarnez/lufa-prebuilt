@@ -9,4 +9,5 @@ function announce () {
 
 git clone https://github.com/abcminiuser/lufa.git && \
   cd lufa && \
+  make && \
   ls
