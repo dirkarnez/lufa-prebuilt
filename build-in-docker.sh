@@ -7,7 +7,7 @@ function announce () {
     echo "##########################################################################################"
 }
 
-git clone https://github.com/abcminiuser/lufa.git && \
+git clone --branch LUFA-210130 https://github.com/abcminiuser/lufa.git && \
   cd lufa && \
   make && \
   ls
